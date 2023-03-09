@@ -93,15 +93,6 @@
       align-items: center;
       overflow-x: hidden;
 
-      &::after {
-        content: "";
-        // width: 40vmax;
-        // height: 40vmax;
-        background-color: $color3;
-        position: absolute;
-        z-index: -1;
-        border-radius: 50%;
-      }
 
       > img {
         width: 40vmax;

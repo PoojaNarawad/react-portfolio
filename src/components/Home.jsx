@@ -5,15 +5,9 @@ import { BsArrowUpRight, BsChevronDown } from "react-icons/bs";
 import me from "../assets/logo.png";
 
 const Home = ({ ratio }) => {
-  const clientCount = useRef(null);
   const projectCount = useRef(null);
 
-  const animationClientsCount = () => {
-    animate(0, 100, {
-      duration: 1,
-      onUpdate: (v) => (clientCount.current.textContent = v.toFixed()),
-    });
-  };
+ 
   const animationProjectsCount = () => {
     animate(0, 500, {
       duration: 1,
@@ -48,7 +42,7 @@ const Home = ({ ratio }) => {
       <section>
         <div>
           <motion.h1 {...animations.h1}>
-            Hello All, I Am <br /> Pooja Narawad.
+            Hello, I Am <br /> Pooja Narawad.
           </motion.h1>
 
           <Typewriter
@@ -67,19 +61,6 @@ const Home = ({ ratio }) => {
               Projects <BsArrowUpRight />
             </a>
           </div>
-
-          <article>
-            <p>
-              +
-              {ratio < 2 && (
-                <motion.span
-                  whileInView={animationClientsCount}
-                  ref={clientCount}
-                ></motion.span>
-              )}
-            </p>
-            <span>Clients Worldwide</span>
-          </article>
 
           <aside>
             <article>
