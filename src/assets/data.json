@@ -1,0 +1,33 @@
+{
+  "projects": [
+    {
+      "date": "14/01/2023",
+      "title": "TECH GUIDER",
+      "description": "TechGuider is a simple website ,created based on react components where you will get solution to all your problems.This project is created and styled using Html ,Sass and Reactjs",
+      "url": "https://tech-guider.vercel.app/",
+      "imgSrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIeCJDIlkRAACIqFnv-r9Z9hfkOp84ehOvLg&usqp=CAU"
+    },
+
+    {
+      "date": "29/01/2023",
+      "title": "MBA BURGERWALA",
+      "description": "This is the frontend part of project.Built using ReactJs.  ",
+      "url": "https://mba-burgerwala.vercel.app/",
+      "imgSrc": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/ejmuac53hsavkaezd2qk"
+    },
+    {
+      "date": "11/02/2023",
+      "title": "BLACK-BERRY",
+      "description": "This is the web development website.Basically website is created using Html,Css only",
+      "url": "https://black-berry-fashions.vercel.app",
+      "imgSrc": "https://c8.alamy.com/comp/D84GXM/blackberry-logo-as-an-app-icon-clipping-path-included-D84GXM.jpg"
+    },
+    {
+      "date": "03/03/2023",
+      "title": "PORTFOLIO",
+      "description": "The project with name PORTFOLIO is ReactJs project and is responsive.The components in this project are made reusable.",
+      "url": "/",
+      "imgSrc": "https://www.tuacarreira.com/wp-content/uploads/2019/09/portfolio-1200x900.jpg"
+    }
+  ]
+}
